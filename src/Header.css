@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  width: 100%;
+  min-width: 650px;
+  height: 82px;
+  text-align: left;
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+  background-color: #525252;
+}
+
+.header .menubar {
+  display: flex;
+  height: 22px;
+  background-color: #222325;
+}
+
+.menubar img {
+  margin: 0px;
+  margin-left: auto;
+}
+
+.header .header-item {
+  display: flex;
+  height: 60px;
+}
+
+.header .title {
+  margin: 0px auto 0px 25px;
+  line-height: 60px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.header .language {
+  margin: 0px 25px 0px 0px;
+  line-height: 60px;
+}
+
+.header .language:hover {
+  cursor: pointer;
+  color: #8c8c8c;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #525252;
+}

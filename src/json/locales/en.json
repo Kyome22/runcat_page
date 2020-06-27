@@ -1,0 +1,20 @@
+{
+  "language": "日本語",
+  "app_name": "RunCat",
+  "catchcopy": "Cat living in the menubar.",
+  "short_description": "The cat tells you the CPU consumption of Mac by running speed.",
+  "download_url": "https://apps.apple.com/us/app/runcat/id1429033973?mt=12",
+  "what_is_this": "What is this?",
+  "summary": "RunCat provides a key-frame animation to the menu bar.\nAnimation changes the speed depending on the CPU consumption of Mac.",
+  "useful_point": "Useful Point",
+  "explain1": "You can check system information.",
+  "cpu": "CPU usage",
+  "memory": "Memory performance",
+  "disk": "Disk capacity",
+  "network": "Network connection",
+  "privacy_policy": "Privacy Policy",
+  "detail": "In more detail",
+  "privacy_policy_url": "https://kyome.io/runcat/privacypolicy.html",
+  "support": "Support",
+  "copyright": "©︎ 2020 Takuto Nakamura"
+}

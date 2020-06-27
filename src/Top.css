@@ -1,0 +1,38 @@
+.top {
+  padding: 50px 0px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.top div.app {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.top img.app-icon {
+  height: 100px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.top span.app-name {
+  font-style: italic;
+  font-size: 80px;
+  line-height: 100px;
+}
+
+.top h2.catchcopy {
+  font-weight: bold;
+}
+
+.top img.download-icon {
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+}
+
+.top img.download-icon:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

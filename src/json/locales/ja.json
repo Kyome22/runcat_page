@@ -1,0 +1,20 @@
+{
+  "language": "English",
+  "app_name": "RunCat",
+  "catchcopy": "Macのメニューバーでネコ飼ってみませんか？",
+  "short_description": "ネコは走るスピードでMacのCPU使用率を教えてくれます。",
+  "download_url": "https://apps.apple.com/jp/app/runcat/id1429033973?mt=12",
+  "what_is_this": "どんなもの？",
+  "summary": "MacのCPU使用率に応じてコマ送りの速度が変化する\nアニメーションをメニューバーに提供します。",
+  "useful_point": "便利なところ",
+  "explain1": "システムの状態を確認することができます。",
+  "cpu": "CPU使用率",
+  "memory": "メモリ性能",
+  "disk": "ディスク容量",
+  "network": "ネットワーク接続状況",
+  "privacy_policy": "プライバシーポリシー",
+  "detail": "詳しく見る",
+  "privacy_policy_url": "https://kyome.io/runcat/privacypolicy_jp.html",
+  "support": "サポート",
+  "copyright": "©︎ 2020 Takuto Nakamura"
+}
