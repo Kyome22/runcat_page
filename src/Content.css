@@ -31,3 +31,34 @@
   text-align: left;
   font-size: 24px;
 }
+
+.happy-runners {
+  padding: 20px 0px;
+}
+
+.runners-store {
+  padding: 20px 0px;
+}
+
+.runner-table {
+  margin: 20px auto;
+}
+
+.runner-table td {
+  padding: 0px 5px;
+  width: 140px;
+  max-width: 140px;
+  vertical-align: top;
+}
+
+.runner {
+  width: 140px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.runner img {
+  object-fit: contain;
+  max-width: 140px;
+}

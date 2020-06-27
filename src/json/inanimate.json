@@ -1,0 +1,77 @@
+[
+  {
+    "en_name": "Cogwheel",
+    "ja_name": "歯車",
+    "apng": "images/runners/2_inanimate/cogwheel.png"
+  },
+  {
+    "en_name": "Bonfire",
+    "ja_name": "焚き火",
+    "apng": "images/runners/2_inanimate/bonfire.png"
+  },
+  {
+    "en_name": "Drop",
+    "ja_name": "水滴",
+    "apng": "images/runners/2_inanimate/drop.png"
+  },
+  {
+    "en_name": "Rocket",
+    "ja_name": "ロケット",
+    "apng": "images/runners/2_inanimate/rocket.png"
+  },
+  {
+    "en_name": "Pendulum",
+    "ja_name": "振り子",
+    "apng": "images/runners/2_inanimate/pendulum.png"
+  },
+  {
+    "en_name": "Newton's Cradle",
+    "ja_name": "ニュートンのゆりかご",
+    "apng": "images/runners/2_inanimate/cradle.png"
+  },
+  {
+    "en_name": "Sine Curve",
+    "ja_name": "サイン波",
+    "apng": "images/runners/2_inanimate/sine_curve.png"
+  },
+  {
+    "en_name": "Pulse",
+    "ja_name": "パルス",
+    "apng": "images/runners/2_inanimate/pulse.png"
+  },
+  {
+    "en_name": "Coffee",
+    "ja_name": "コーヒー",
+    "apng": "images/runners/2_inanimate/coffee.png"
+  },
+  {
+    "en_name": "Steam Locomotive",
+    "ja_name": "蒸気機関車",
+    "apng": "images/runners/2_inanimate/steam_locomotive.png"
+  },
+  {
+    "en_name": "Tapioca Drink",
+    "ja_name": "タピオカドリンク",
+    "apng": "images/runners/2_inanimate/tapioca_drink.png"
+  },
+  {
+    "en_name": "Frypan",
+    "ja_name": "フライパン",
+    "apng": "images/runners/2_inanimate/frypan.png"
+  },
+  {
+    "en_name": "Factory",
+    "ja_name": "工場",
+    "apng": "images/runners/2_inanimate/factory.png"
+  },
+  {
+    "en_name": "Engine",
+    "ja_name": "エンジン",
+    "apng": "images/runners/2_inanimate/engine.png"
+  },
+  {
+    "en_name": "Earth",
+    "ja_name": "地球",
+    "apng": "images/runners/2_inanimate/earth.png"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "en_name": "Cat α",
+    "ja_name": "ネコ α",
+    "apng": "images/runners/0_defaults/cat.png"
+  },
+  {
+    "en_name": "Cat β",
+    "ja_name": "ネコ β",
+    "apng": "images/runners/0_defaults/cat_b.png"
+  },
+  {
+    "en_name": "Cat γ",
+    "ja_name": "ネコ γ",
+    "apng": "images/runners/0_defaults/cat_c.png"
+  },
+  {
+    "en_name": "Cat Tail",
+    "ja_name": "猫のしっぽ",
+    "apng": "images/runners/0_defaults/cat_tail.png"
+  },
+  {
+    "en_name": "Mock Nyan Cat",
+    "ja_name": "Nyan Cat もどき",
+    "apng": "images/runners/0_defaults/mock_nyan_cat.png"
+  },
+  {
+    "en_name": "Parrot",
+    "ja_name": "例のオウム",
+    "apng": "images/runners/0_defaults/parrot.png"
+  },
+  {
+    "en_name": "Human",
+    "ja_name": "ヒト",
+    "apng": "images/runners/0_defaults/human.png"
+  },
+  {
+    "en_name": "Push-Up",
+    "ja_name": "腕立て伏せ",
+    "apng": "images/runners/0_defaults/push_up.png"
+  },
+  {
+    "en_name": "Sit-Up",
+    "ja_name": "腹筋",
+    "apng": "images/runners/0_defaults/sit_up.png"
+  },
+  {
+    "en_name": "Rubber Duck",
+    "ja_name": "お風呂のアヒル",
+    "apng": "images/runners/0_defaults/rubber_duck.png"
+  },
+  {
+    "en_name": "City",
+    "ja_name": "都会",
+    "apng": "images/runners/0_defaults/city.png"
+  },
+  {
+    "en_name": "Sausage",
+    "ja_name": "踊るソーセージ",
+    "apng": "images/runners/0_defaults/sausage.png"
+  },
+  {
+    "en_name": "Dots",
+    "ja_name": "ドット",
+    "apng": "images/runners/0_defaults/dots.png"
+  },
+  {
+    "en_name": "Reactor",
+    "ja_name": "彼のリアクター",
+    "apng": "images/runners/0_defaults/reactor.png"
+  },
+  {
+    "en_name": "Slime",
+    "ja_name": "スライム",
+    "apng": "images/runners/0_defaults/slime.png"
+  },
+  {
+    "en_name": "Fish-Man",
+    "ja_name": "魚男",
+    "apng": "images/runners/0_defaults/fishman.png"
+  },
+  {
+    "en_name": "Sheep",
+    "ja_name": "ヒツジ",
+    "apng": "images/runners/0_defaults/sheep.png"
+  },
+  {
+    "en_name": "Rolling Sushi",
+    "ja_name": "回転寿司",
+    "apng": "images/runners/0_defaults/sushi.png"
+  },
+  {
+    "en_name": "Party People",
+    "ja_name": "パリピ",
+    "apng": "images/runners/0_defaults/party_people.png"
+  },
+  {
+    "en_name": "Japanese Apology",
+    "ja_name": "土下座",
+    "apng": "images/runners/0_defaults/dogeza.png"
+  }
+]
