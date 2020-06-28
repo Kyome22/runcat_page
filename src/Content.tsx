@@ -79,27 +79,27 @@ export function Content() {
             <li>{t("width")}</li>
             <li>{t("number")}</li>
           </ul>
-          <img className="howto-700" src="images/howto1.png" />
+          <img className="howto-700" src="images/howto1.png" alt="" />
         </div>
         <div>
           <p className="howto">{t("open_preferences")}</p>
-          <img className="howto-300" src="images/en/howto2.png" />
+          <img className="howto-300" src={`images/${lang}/howto2.png`} alt="" />
         </div>
         <div>
           <p className="howto">{t("edit_runner")}</p>
           <p className="howto-sub">{t("preview")}</p>
-          <img className="howto-700" src="images/en/howto3.png" />
+          <img className="howto-700" src={`images/${lang}/howto3.png`} alt="" />
         </div>
         <div>
           <p className="howto">{t("edit_order")}</p>
           <p className="howto-sub">{t("drag_drop")}</p>
-          <img className="howto-700" src="images/en/howto4.gif" />
+          <img className="howto-700" src={`images/${lang}/howto4.gif`} alt="" />
         </div>
         <div>
           <p className="howto">{t("register")}</p>
-          <img className="howto-400" src="images/en/howto5.png" />
+          <img className="howto-400" src={`images/${lang}/howto5.png`} alt="" />
         </div>
-        <p className="attention">{t("warning")}</p>
+        <p className="explain">{t("warning")}</p>
       </div>
     </div>
   );
