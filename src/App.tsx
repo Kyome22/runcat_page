@@ -41,7 +41,7 @@ const App: React.FC<{ qs: ParsedQuery }> = (props) => {
   };
 
   return (
-    <div className="App">
+    <div className="app">
       <Header onLangChange={onLangChange} />
       <div className="dummyHeader" />
       <Top />
