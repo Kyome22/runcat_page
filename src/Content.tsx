@@ -15,7 +15,7 @@ export function Content() {
 
   const newline = (str: string) => {
     return str.split("\n").map((str, index) => (
-      <React.Fragment key={index}>
+      <React.Fragment key={`newline-${index}`}>
         {str}
         <br />
       </React.Fragment>
