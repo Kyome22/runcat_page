@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import i18n from "i18next";
 import { initReactI18next, useTranslation } from "react-i18next";
 import { ParsedQuery } from "query-string";
+import { Helmet } from "react-helmet";
 import { Header } from "./Header";
 import { Top } from "./Top";
 import { Content } from "./Content";
@@ -28,7 +29,7 @@ const App: React.FC<{ qs: ParsedQuery }> = (props) => {
     }
     return "ja";
   };
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [lang, setLang] = useState(defaultLang(props.qs));
 
   useEffect(() => {
@@ -42,6 +43,7 @@ const App: React.FC<{ qs: ParsedQuery }> = (props) => {
 
   return (
     <div className="app">
+      <Helmet title={t("app_name")} />
       <Header onLangChange={onLangChange} />
       <div className="dummyHeader" />
       <Top />

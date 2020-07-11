@@ -26,12 +26,12 @@ export function Content() {
     <div className="content">
       <div className="what-is-this">
         <p className="contents-title">{t("what_is_this")}</p>
-        <img className="" src="images/demo.gif" alt="demo" />
+        <img src="images/demo.gif" alt="demo" />
         <p className="explain">{newline(t("summary"))}</p>
       </div>
       <div className="useful-point">
         <p className="contents-title">{t("useful_point")}</p>
-        <img className="" src={`images/${lang}/info.png`} alt="info" />
+        <img src={`images/${lang}/info.png`} alt="info" />
         <p className="explain">{t("explain1")}</p>
         <ul className="info-item">
           <li>{t("cpu")}</li>
