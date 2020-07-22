@@ -55,7 +55,9 @@ export function Content() {
         <RunnerTable values={seasonal} num={4} />
         <p className="explain">{t("special")}</p>
         <RunnerTable values={special} num={2} />
-        <p className="explain">{t("more")}</p>
+        <p className="explain" id="help">
+          {t("more")}
+        </p>
       </div>
       <div className="self-made">
         <p className="contents-title">
