@@ -1,12 +1,15 @@
-[
-  {
-    "en_name": "Golden Cat",
-    "ja_name": "黄金のネコ",
-    "apng": "images/runners/4_special/golden_cat.png"
-  },
-  {
-    "en_name": "Metal Cluster Cat",
-    "ja_name": "メタルクラスタキャット",
-    "apng": "images/runners/4_special/metal_cluster_cat.png"
-  }
-]
+{
+  "directory": "4_special",
+  "runners": [
+    {
+      "en_name": "Golden Cat",
+      "ja_name": "黄金のネコ",
+      "apng": "golden_cat.png"
+    },
+    {
+      "en_name": "Metal Cluster Cat",
+      "ja_name": "メタルクラスタキャット",
+      "apng": "metal_cluster_cat.png"
+    }
+  ]
+}

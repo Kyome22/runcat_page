@@ -1,122 +1,130 @@
-[
-  {
-    "en_name": "Cheetah",
-    "ja_name": "チーター",
-    "apng": "images/runners/1_animal/cheetah.png"
-  },
-  {
-    "en_name": "Dog",
-    "ja_name": "イヌ",
-    "apng": "images/runners/1_animal/dog.png"
-  },
-  {
-    "en_name": "Puppy",
-    "ja_name": "子犬",
-    "apng": "images/runners/1_animal/puppy.png"
-  },
-  {
-    "en_name": "Rabbit",
-    "ja_name": "ウサギ",
-    "apng": "images/runners/1_animal/rabbit.png"
-  },
-  {
-    "en_name": "Frog",
-    "ja_name": "カエル",
-    "apng": "images/runners/1_animal/frog.png"
-  },
-  {
-    "en_name": "Bird",
-    "ja_name": "トリ",
-    "apng": "images/runners/1_animal/bird.png"
-  },
-  {
-    "en_name": "Penguin",
-    "ja_name": "ペンギン",
-    "apng": "images/runners/1_animal/penguin.png"
-  },
-  {
-    "en_name": "Dolphin",
-    "ja_name": "イルカ",
-    "apng": "images/runners/1_animal/dolphin.png"
-  },
-  {
-    "en_name": "Dragon",
-    "ja_name": "ドラゴン",
-    "apng": "images/runners/1_animal/dragon.png"
-  },
-  {
-    "en_name": "Owl",
-    "ja_name": "フクロウ",
-    "apng": "images/runners/1_animal/owl.png"
-  },
-  {
-    "en_name": "Dinosaur",
-    "ja_name": "恐竜",
-    "apng": "images/runners/1_animal/dinosaur.png"
-  },
-  {
-    "en_name": "Terrier",
-    "ja_name": "テリア犬",
-    "apng": "images/runners/1_animal/terrier.png"
-  },
-  {
-    "en_name": "Hedgehog",
-    "ja_name": "ハリネズミ",
-    "apng": "images/runners/1_animal/hedgehog.png"
-  },
-  {
-    "en_name": "Horse",
-    "ja_name": "早馬",
-    "apng": "images/runners/1_animal/horse.png"
-  },
-  {
-    "en_name": "Penguin 2",
-    "ja_name": "ペンギン２",
-    "apng": "images/runners/1_animal/penguin2.png"
-  },
-  {
-    "en_name": "Hamster Wheel",
-    "ja_name": "ハムスターと回し車",
-    "apng": "images/runners/1_animal/hamster_wheel.png"
-  },
-  {
-    "en_name": "Octopus",
-    "ja_name": "タコ",
-    "apng": "images/runners/1_animal/octopus.png"
-  },
-  {
-    "en_name": "Chameleon",
-    "ja_name": "カメレオン",
-    "apng": "images/runners/1_animal/chameleon.png"
-  },
-  {
-    "en_name": "Chicken",
-    "ja_name": "ニワトリ",
-    "apng": "images/runners/1_animal/chicken.png"
-  },
-  {
-    "en_name": "Mouse",
-    "ja_name": "ネズミ",
-    "apng": "images/runners/1_animal/mouse.png"
-  },
-  {
-    "en_name": "Pig",
-    "ja_name": "ブタ",
-    "apng": "images/runners/1_animal/pig.png"
-  },
-  {
-    "en_name": "Fox",
-    "ja_name": "キツネ",
-    "apng": "images/runners/1_animal/fox.png"
-  },
-  {
-    "en_name": "Whale",
-    "ja_name": "クジラ",
-    "apng": "images/runners/1_animal/whale.png"
-  },
-  {
-    "en_name": "Otter",
-    "ja_name": "カワウソ",
-    "apng": "images/runners/1_animal/otter.png"
-  }
-]
+{
+  "directory": "1_animal",
+  "runners": [
+    {
+      "en_name": "Cheetah",
+      "ja_name": "チーター",
+      "apng": "cheetah.png"
+    },
+    {
+      "en_name": "Dog",
+      "ja_name": "イヌ",
+      "apng": "dog.png"
+    },
+    {
+      "en_name": "Puppy",
+      "ja_name": "子犬",
+      "apng": "puppy.png"
+    },
+    {
+      "en_name": "Rabbit",
+      "ja_name": "ウサギ",
+      "apng": "rabbit.png"
+    },
+    {
+      "en_name": "Frog",
+      "ja_name": "カエル",
+      "apng": "frog.png"
+    },
+    {
+      "en_name": "Bird",
+      "ja_name": "トリ",
+      "apng": "bird.png"
+    },
+    {
+      "en_name": "Penguin",
+      "ja_name": "ペンギン",
+      "apng": "penguin.png"
+    },
+    {
+      "en_name": "Dolphin",
+      "ja_name": "イルカ",
+      "apng": "dolphin.png"
+    },
+    {
+      "en_name": "Dragon",
+      "ja_name": "ドラゴン",
+      "apng": "dragon.png"
+    },
+    {
+      "en_name": "Owl",
+      "ja_name": "フクロウ",
+      "apng": "owl.png"
+    },
+    {
+      "en_name": "Dinosaur",
+      "ja_name": "恐竜",
+      "apng": "dinosaur.png"
+    },
+    {
+      "en_name": "Terrier",
+      "ja_name": "テリア犬",
+      "apng": "terrier.png"
+    },
+    {
+      "en_name": "Hedgehog",
+      "ja_name": "ハリネズミ",
+      "apng": "hedgehog.png"
+    },
+    {
+      "en_name": "Horse",
+      "ja_name": "早馬",
+      "apng": "horse.png"
+    },
+    {
+      "en_name": "Penguin 2",
+      "ja_name": "ペンギン２",
+      "apng": "penguin2.png"
+    },
+    {
+      "en_name": "Hamster Wheel",
+      "ja_name": "ハムスターと回し車",
+      "apng": "hamster_wheel.png"
+    },
+    {
+      "en_name": "Octopus",
+      "ja_name": "タコ",
+      "apng": "octopus.png"
+    },
+    {
+      "en_name": "Chameleon",
+      "ja_name": "カメレオン",
+      "apng": "chameleon.png"
+    },
+    {
+      "en_name": "Chicken",
+      "ja_name": "ニワトリ",
+      "apng": "chicken.png"
+    },
+    {
+      "en_name": "Mouse",
+      "ja_name": "ネズミ",
+      "apng": "mouse.png"
+    },
+    {
+      "en_name": "Pig",
+      "ja_name": "ブタ",
+      "apng": "pig.png"
+    },
+    {
+      "en_name": "Fox",
+      "ja_name": "キツネ",
+      "apng": "fox.png"
+    },
+    {
+      "en_name": "Whale",
+      "ja_name": "クジラ",
+      "apng": "whale.png"
+    },
+    {
+      "en_name": "Otter",
+      "ja_name": "カワウソ",
+      "apng": "otter.png"
+    },
+    {
+      "en_name": "Squirrel",
+      "ja_name": "リス",
+      "apng": "squirrel.png"
+    }
+  ]
+}

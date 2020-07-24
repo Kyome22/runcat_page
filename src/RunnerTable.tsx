@@ -2,19 +2,25 @@ import React from "react";
 import i18n from "i18next";
 import "./RunnerTable.css";
 
-export type RunnerValue = {
+type RunnerValue = {
   en_name: string;
   ja_name: string;
   apng: string;
 };
 
+type RunnerBox = {
+  directory: string;
+  runners: RunnerValue[];
+};
+
 type Props = {
-  values: RunnerValue[];
+  runnerBox: RunnerBox;
   num: number;
 };
 
 export function RunnerTable(props: Props) {
-  const { values, num } = props;
+  const { runnerBox, num } = props;
+  const { directory, runners } = runnerBox;
   const lang = i18n.language;
 
   const rows = (values: RunnerValue[], n: number) => {
@@ -44,7 +50,7 @@ export function RunnerTable(props: Props) {
         <td key={`td-${i}`}>
           <div className="runner">
             <img
-              src={enumValue.apng}
+              src={`images/runners/${directory}/${enumValue.apng}`}
               alt={name}
               onContextMenu={(e) => e.preventDefault()}
               onMouseDown={(e) => e.preventDefault()}
@@ -59,7 +65,7 @@ export function RunnerTable(props: Props) {
 
   return (
     <table className="runner-table">
-      <tbody>{trs(rows(values, num))}</tbody>
+      <tbody>{trs(rows(runners, num))}</tbody>
     </table>
   );
 }

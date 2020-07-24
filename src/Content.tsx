@@ -43,18 +43,18 @@ export function Content() {
       <div className="happy-runners">
         <p className="contents-title">{t("happy_runners")}</p>
         <p className="explain">{t("explain2")}</p>
-        <RunnerTable values={defaults} num={5} />
+        <RunnerTable runnerBox={defaults} num={5} />
       </div>
       <div className="runners-store">
         <p className="contents-title">{t("runners_store")}</p>
         <p className="explain">{t("animal")}</p>
-        <RunnerTable values={animal} num={5} />
+        <RunnerTable runnerBox={animal} num={5} />
         <p className="explain">{t("inanimate")}</p>
-        <RunnerTable values={inanimate} num={5} />
+        <RunnerTable runnerBox={inanimate} num={5} />
         <p className="explain">{t("seasonal")}</p>
-        <RunnerTable values={seasonal} num={4} />
+        <RunnerTable runnerBox={seasonal} num={4} />
         <p className="explain">{t("special")}</p>
-        <RunnerTable values={special} num={2} />
+        <RunnerTable runnerBox={special} num={2} />
         <p className="explain" id="help">
           {t("more")}
         </p>

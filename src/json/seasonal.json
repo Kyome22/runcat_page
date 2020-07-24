@@ -1,37 +1,40 @@
-[
-  {
-    "en_name": "Reindeer & Sleigh",
-    "ja_name": "トナカイとソリ",
-    "apng": "images/runners/3_seasonal/reindeer_sleigh.png"
-  },
-  {
-    "en_name": "Snowman",
-    "ja_name": "雪だるま",
-    "apng": "images/runners/3_seasonal/snowman.png"
-  },
-  {
-    "en_name": "Sparkler",
-    "ja_name": "線香花火",
-    "apng": "images/runners/3_seasonal/sparkler.png"
-  },
-  {
-    "en_name": "Wind Chime",
-    "ja_name": "風鈴",
-    "apng": "images/runners/3_seasonal/wind_chime.png"
-  },
-  {
-    "en_name": "Jack O' Lantern",
-    "ja_name": "ジャック・オー・ランタン",
-    "apng": "images/runners/3_seasonal/jack_o_lantern.png"
-  },
-  {
-    "en_name": "Ghost",
-    "ja_name": "幽霊",
-    "apng": "images/runners/3_seasonal/ghost.png"
-  },
-  {
-    "en_name": "Mochi",
-    "ja_name": "おもち",
-    "apng": "images/runners/3_seasonal/mochi.png"
-  }
-]
+{
+  "directory": "3_seasonal",
+  "runners": [
+    {
+      "en_name": "Reindeer & Sleigh",
+      "ja_name": "トナカイとソリ",
+      "apng": "reindeer_sleigh.png"
+    },
+    {
+      "en_name": "Snowman",
+      "ja_name": "雪だるま",
+      "apng": "snowman.png"
+    },
+    {
+      "en_name": "Sparkler",
+      "ja_name": "線香花火",
+      "apng": "sparkler.png"
+    },
+    {
+      "en_name": "Wind Chime",
+      "ja_name": "風鈴",
+      "apng": "wind_chime.png"
+    },
+    {
+      "en_name": "Jack O' Lantern",
+      "ja_name": "ジャック・オー・ランタン",
+      "apng": "jack_o_lantern.png"
+    },
+    {
+      "en_name": "Ghost",
+      "ja_name": "幽霊",
+      "apng": "ghost.png"
+    },
+    {
+      "en_name": "Mochi",
+      "ja_name": "おもち",
+      "apng": "mochi.png"
+    }
+  ]
+}
