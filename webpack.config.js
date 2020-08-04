@@ -50,6 +50,10 @@ module.exports = {
           from: path.resolve(__dirname, "static", "favicon.ico"),
           to: path.resolve(__dirname, "dist", "favicon.ico"),
         },
+        {
+          from: path.resolve(__dirname, "static", "analytics.js"),
+          to: path.resolve(__dirname, "dist", "js"),
+        },
       ],
     }),
     new WriteFilePlugin(),
