@@ -1,4 +1,5 @@
 import React from "react";
+import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import "./Top.css";
 
@@ -15,7 +16,7 @@ export function Top() {
       <h3 className="short-description">{t("short_description")}</h3>
       <img
         className="download-icon"
-        src="images/en/download_on_the_App_Store.svg"
+        src={`images/${i18n.language}/download_on_the_App_Store.svg`}
         alt=""
         onClick={() => {
           window.location.href = t("download_url");
