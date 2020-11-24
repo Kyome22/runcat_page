@@ -69,3 +69,7 @@ img.howto-700 {
   padding: 10px;
   width: 700px;
 }
+
+.newline {
+  white-space: pre-line;
+}

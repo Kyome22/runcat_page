@@ -57,7 +57,7 @@ export function RunnerTable(props: Props) {
               onSelect={(e) => e.preventDefault()}
             />
           </div>
-          <p>{name}</p>
+          <p className="newline">{name}</p>
         </td>
       );
     });

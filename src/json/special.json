@@ -8,8 +8,13 @@
     },
     {
       "en_name": "Metal Cluster Cat",
-      "ja_name": "メタルクラスタキャット",
+      "ja_name": "メタルクラスタ\nキャット",
       "apng": "metal_cluster_cat.png"
+    },
+    {
+      "en_name": "Flash Cat",
+      "ja_name": "赤い閃光猫",
+      "apng": "flash_cat.png"
     }
   ]
 }

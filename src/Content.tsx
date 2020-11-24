@@ -13,21 +13,12 @@ export function Content() {
   const lang = i18n.language;
   const { t } = useTranslation();
 
-  const newline = (str: string) => {
-    return str.split("\n").map((str, index) => (
-      <React.Fragment key={`newline-${index}`}>
-        {str}
-        <br />
-      </React.Fragment>
-    ));
-  };
-
   return (
     <div className="content">
       <div className="what-is-this">
         <p className="contents-title">{t("what_is_this")}</p>
         <img src="images/demo.gif" alt="demo" />
-        <p className="explain">{newline(t("summary"))}</p>
+        <p className="explain newline">{t("summary")}</p>
       </div>
       <div className="useful-point">
         <p className="contents-title">{t("useful_point")}</p>
@@ -54,7 +45,7 @@ export function Content() {
         <p className="explain">{t("seasonal")}</p>
         <RunnerTable runnerBox={seasonal} num={4} />
         <p className="explain">{t("special")}</p>
-        <RunnerTable runnerBox={special} num={2} />
+        <RunnerTable runnerBox={special} num={3} />
         <p className="explain" id="help">
           {t("more")}
         </p>
