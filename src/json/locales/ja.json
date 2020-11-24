@@ -41,5 +41,7 @@
   "explain4": "可愛いネコのアニメーションをWindowsのタスクバーにも。",
   "download": "RunCat.exeのダウンロードページへ",
   "support": "サポート",
+  "mail_subject": "RunCat 不具合の報告",
+  "mail_body": "# 環境\n- RunCatのバージョン: [記入してください]\n- macOSのバージョン: [記入してください]\n\n# 試したこと\n- アプリの再起動: [はい/いいえ]\n- ランナーストアにて購入の復元: [はい/いいえ]\n\n# 不具合の簡単な説明\n\n\n# 不具合の再現手順（不具合が発生した際に行なっていた操作）\n\n\n# 本来期待される挙動\n\n\n",
   "copyright": "©︎ 2020 Takuto Nakamura"
 }

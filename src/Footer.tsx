@@ -5,6 +5,13 @@ import "./Footer.css";
 export function Footer() {
   const { t } = useTranslation();
 
+  const mail = (() => {
+    let str = "mailto:kyomesuke@icloud.com";
+    str += `?subject=${t("mail_subject")}`;
+    str += `&body=${t("mail_body")}`;
+    return encodeURI(str);
+  })();
+
   return (
     <div className="footer">
       <div className="privacy-policy">
@@ -20,7 +27,7 @@ export function Footer() {
       </div>
       <div className="support">
         <p className="contents-title">{t("support")}</p>
-        <a className="mail-link" href="mailto:kyomesuke@icloud.com">
+        <a className="mail-link" href={mail}>
           <img className="link-image" src="images/mail.png" />
           <span>kyomesuke[at]icloud.com</span>
         </a>
