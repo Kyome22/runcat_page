@@ -1,6 +1,7 @@
 import React from "react";
 import i18n from "i18next";
 import { useTranslation } from "react-i18next";
+import { Top } from "./Top";
 import { RunnerTable } from "./RunnerTable";
 import defaults from "./json/defaults.json";
 import animal from "./json/animal.json";
@@ -15,12 +16,13 @@ export function Content() {
 
   return (
     <div className="content">
-      <div className="what-is-this">
+      <Top />
+      <div className="section" id="what_is_this">
         <p className="contents-title">{t("what_is_this")}</p>
         <img src="images/demo.gif" alt="demo" />
         <p className="explain newline">{t("summary")}</p>
       </div>
-      <div className="useful-point">
+      <div className="section" id="useful_point">
         <p className="contents-title">{t("useful_point")}</p>
         <img src={`images/${lang}/info.png`} alt="info" />
         <p className="explain">{t("explain1")}</p>
@@ -31,12 +33,12 @@ export function Content() {
           <li>{t("network")}</li>
         </ul>
       </div>
-      <div className="happy-runners">
+      <div className="section" id="happy_runners">
         <p className="contents-title">{t("happy_runners")}</p>
         <p className="explain">{t("explain2")}</p>
         <RunnerTable runnerBox={defaults} num={5} />
       </div>
-      <div className="runners-store">
+      <div className="section" id="runners_store">
         <p className="contents-title">{t("runners_store")}</p>
         <p className="explain">{t("animal")}</p>
         <RunnerTable runnerBox={animal} num={5} />
@@ -50,7 +52,7 @@ export function Content() {
           {t("more")}
         </p>
       </div>
-      <div className="self-made">
+      <div className="section" id="self_made">
         <p className="contents-title">
           <img
             className="self-made-icon"

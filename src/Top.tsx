@@ -7,7 +7,7 @@ export function Top() {
   const { t } = useTranslation();
 
   return (
-    <div className="top">
+    <div className="section top">
       <div className="app">
         <img className="app-icon" src="images/icon.png" alt="" />
         <span className="app-name">{t("app_name")}</span>

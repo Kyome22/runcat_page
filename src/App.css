@@ -1,9 +1,3 @@
 .app {
   text-align: center;
 }
-
-.app div.dummyHeader {
-  margin: 0;
-  padding: 0;
-  height: 82px;
-}

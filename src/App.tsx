@@ -4,7 +4,6 @@ import { initReactI18next, useTranslation } from "react-i18next";
 import { ParsedQuery } from "query-string";
 import { Helmet } from "react-helmet";
 import { Header } from "./Header";
-import { Top } from "./Top";
 import { Content } from "./Content";
 import { Footer } from "./Footer";
 import ja from "./json/locales/ja.json";
@@ -45,8 +44,6 @@ const App: React.FC<{ qs: ParsedQuery }> = (props) => {
     <div className="app">
       <Helmet title={t("app_name")} />
       <Header onLangChange={onLangChange} />
-      <div className="dummyHeader" />
-      <Top />
       <Content />
       <Footer />
     </div>

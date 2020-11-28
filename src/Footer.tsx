@@ -14,7 +14,7 @@ export function Footer() {
 
   return (
     <div className="footer">
-      <div className="privacy-policy">
+      <div className="section">
         <p className="contents-title">{t("privacy_policy")}</p>
         <button
           className="link"
@@ -25,14 +25,14 @@ export function Footer() {
           {t("detail")}
         </button>
       </div>
-      <div className="support">
+      <div className="section">
         <p className="contents-title">{t("support")}</p>
         <a className="mail-link" href={mail}>
           <img className="link-image" src="images/mail.png" />
           <span>kyomesuke[at]icloud.com</span>
         </a>
       </div>
-      <div className="for-windows">
+      <div className="section">
         <p className="contents-title">RunCat for Windows</p>
         <img src="images/runcat_for_windows_demo.gif" alt="demo" />
         <p className="explain">{t("explain4")}</p>
