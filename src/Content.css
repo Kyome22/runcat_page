@@ -56,19 +56,8 @@
   font-size: 18px;
 }
 
-.content img.howto-300 {
+.content img.howto {
   padding: 10px;
-  width: 300px;
-}
-
-.content img.howto-400 {
-  padding: 10px;
-  width: 400px;
-}
-
-.content img.howto-700 {
-  padding: 10px;
-  width: 700px;
 }
 
 .content .newline {

@@ -29,6 +29,7 @@ export function Content() {
         <ul className="info-item">
           <li>{t("cpu")}</li>
           <li>{t("memory")}</li>
+          <li>{t("battery")}</li>
           <li>{t("disk")}</li>
           <li>{t("network")}</li>
         </ul>
@@ -74,25 +75,37 @@ export function Content() {
             <li>{t("width")}</li>
             <li>{t("number")}</li>
           </ul>
-          <img className="howto-700" src="images/howto1.png" alt="" />
+          <img className="howto" src="images/howto1.png" alt="" />
         </div>
         <div>
           <p className="howto">{t("open_preferences")}</p>
-          <img className="howto-300" src={`images/${lang}/howto2.png`} alt="" />
+          <img
+            className="howto"
+            src={`images/${lang}/open_preferences.png`}
+            alt=""
+          />
         </div>
         <div>
           <p className="howto">{t("edit_runner")}</p>
           <p className="howto-sub">{t("preview")}</p>
-          <img className="howto-700" src={`images/${lang}/howto3.png`} alt="" />
+          <img
+            className="howto"
+            src={`images/${lang}/self_made_1.png`}
+            alt=""
+          />
         </div>
         <div>
           <p className="howto">{t("edit_order")}</p>
           <p className="howto-sub">{t("drag_drop")}</p>
-          <img className="howto-700" src={`images/${lang}/howto4.gif`} alt="" />
+          <img
+            className="howto"
+            src={`images/${lang}/self_made_2.gif`}
+            alt=""
+          />
         </div>
         <div>
           <p className="howto">{t("register")}</p>
-          <img className="howto-400" src={`images/${lang}/howto5.png`} alt="" />
+          <img className="howto" src={`images/${lang}/registered.png`} alt="" />
         </div>
         <p className="explain">{t("warning")}</p>
       </div>

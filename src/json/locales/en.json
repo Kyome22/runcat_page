@@ -10,6 +10,7 @@
   "explain1": "You can check system information.",
   "cpu": "CPU usage",
   "memory": "Memory performance",
+  "battery": "Battery state",
   "disk": "Disk capacity",
   "network": "Network connection",
   "happy_runners": "Happy Runners",
