@@ -60,8 +60,8 @@
 }
 
 .footer p.copyright {
-  margin: 0;
+  margin: 30px 0 0;
   padding: 15px 0px;
   color: #ececec;
-  background-color: #464646;
+  background-color: #606060;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 
@@ -8,14 +7,13 @@ type Props = {
 };
 
 export function Header(props: Props) {
-  const lang = i18n.language;
   const { onLangChange } = props;
   const { t } = useTranslation();
 
   return (
     <div className="header">
       <div className="menubar">
-        <img src={`images/${lang}/menubar.png`} alt="" />
+        <img src={`images/menubar.png`} alt="" />
       </div>
       <div className="header-item">
         <h2 className="title">{t("app_name")}</h2>

@@ -2,22 +2,24 @@
   position: fixed;
   width: 100%;
   min-width: 650px;
-  height: 82px;
+  height: 84px;
   text-align: left;
   font-family: "Exo 2", sans-serif;
   color: #ffffff;
-  background-color: #525252;
+  background-color: #606060;
 }
 
 .header .menubar {
   display: flex;
-  height: 22px;
-  background-color: #222325;
+  height: 24px;
+  background-color: #464646;
 }
 
 .menubar img {
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
+  width: auto;
+  height: 24px;
 }
 
 .header .header-item {
