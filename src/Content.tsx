@@ -1,17 +1,12 @@
 import React from "react";
-import i18n from "i18next";
 import { useTranslation } from "react-i18next";
-import { Top } from "./Top";
-import { RunnerTable } from "./RunnerTable";
-import defaults from "./json/defaults.json";
-import animal from "./json/animal.json";
-import inanimate from "./json/inanimate.json";
-import seasonal from "./json/seasonal.json";
-import special from "./json/special.json";
+import Top from "./Top";
+import UsefulPoint from "./UsefulPoint";
+import Runners from "./Runners";
+import SelfMade from "./SelfMade";
 import "./Content.css";
 
-export function Content() {
-  const lang = i18n.language;
+export default function Content() {
   const { t } = useTranslation();
 
   return (
@@ -22,93 +17,28 @@ export function Content() {
         <img src="images/demo.gif" alt="demo" />
         <p className="explain newline">{t("summary")}</p>
       </div>
-      <div className="section" id="useful_point">
-        <p className="contents-title">{t("useful_point")}</p>
-        <img src={`images/${lang}/info.png`} alt="info" />
-        <p className="explain">{t("explain1")}</p>
-        <ul className="info-item">
-          <li>{t("cpu")}</li>
-          <li>{t("memory")}</li>
-          <li>{t("battery")}</li>
-          <li>{t("disk")}</li>
-          <li>{t("network")}</li>
-        </ul>
-      </div>
-      <div className="section" id="happy_runners">
-        <p className="contents-title">{t("happy_runners")}</p>
-        <p className="explain">{t("explain2")}</p>
-        <RunnerTable runnerBox={defaults} num={5} />
-      </div>
-      <div className="section" id="runners_store">
-        <p className="contents-title">{t("runners_store")}</p>
-        <p className="explain">{t("animal")}</p>
-        <RunnerTable runnerBox={animal} num={5} />
-        <p className="explain">{t("inanimate")}</p>
-        <RunnerTable runnerBox={inanimate} num={5} />
-        <p className="explain">{t("seasonal")}</p>
-        <RunnerTable runnerBox={seasonal} num={4} />
-        <p className="explain">{t("special")}</p>
-        <RunnerTable runnerBox={special} num={3} />
-        <p className="explain" id="help">
-          {t("more")}
-        </p>
-      </div>
-      <div className="section" id="self_made">
-        <p className="contents-title">
-          <img
-            className="self-made-icon"
-            src="images/runners/4_special/self_made.png"
-            alt=""
-            onContextMenu={(e) => e.preventDefault()}
-            onMouseDown={(e) => e.preventDefault()}
-            onSelect={(e) => e.preventDefault()}
-          />
-          {t("self_made")}
-        </p>
-        <p className="explain">{t("explain3")}</p>
-        <div>
-          <p className="howto">{t("draw_runner")}</p>
-          <p className="howto-sub">{t("regulations")}</p>
-          <ul className="regulations">
-            <li>{t("format")}</li>
-            <li>{t("height")}</li>
-            <li>{t("width")}</li>
-            <li>{t("number")}</li>
-          </ul>
-          <img className="howto" src="images/howto1.png" alt="" />
-        </div>
-        <div>
-          <p className="howto">{t("open_preferences")}</p>
-          <img
-            className="howto"
-            src={`images/${lang}/open_preferences.png`}
-            alt=""
-          />
-        </div>
-        <div>
-          <p className="howto">{t("edit_runner")}</p>
-          <p className="howto-sub">{t("preview")}</p>
-          <img
-            className="howto"
-            src={`images/${lang}/self_made_1.png`}
-            alt=""
-          />
-        </div>
-        <div>
-          <p className="howto">{t("edit_order")}</p>
-          <p className="howto-sub">{t("drag_drop")}</p>
-          <img
-            className="howto"
-            src={`images/${lang}/self_made_2.gif`}
-            alt=""
-          />
-        </div>
-        <div>
-          <p className="howto">{t("register")}</p>
-          <img className="howto" src={`images/${lang}/registered.png`} alt="" />
-        </div>
-        <p className="explain">{t("warning")}</p>
-      </div>
+      <UsefulPoint />
+      <Runners />
+      <SelfMade />
     </div>
+  );
+}
+
+type ImageProps = {
+  class: string;
+  src: string;
+  alt: string;
+};
+
+export function PreventImage(props: ImageProps) {
+  return (
+    <img
+      className={props.class}
+      src={props.src}
+      alt={props.alt}
+      onContextMenu={(e) => e.preventDefault()}
+      onMouseDown={(e) => e.preventDefault()}
+      onSelect={(e) => e.preventDefault()}
+    />
   );
 }

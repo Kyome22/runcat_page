@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./Footer.css";
 
-export function Footer() {
+export default function Footer() {
   const { t } = useTranslation();
 
   const mail = (() => {
@@ -35,7 +35,7 @@ export function Footer() {
       <div className="section">
         <p className="contents-title">RunCat for Windows</p>
         <img src="images/runcat_for_windows_demo.gif" alt="demo" />
-        <p className="explain">{t("explain4")}</p>
+        <p className="explain">{t("explain2")}</p>
         <button
           className="link"
           onClick={() => {

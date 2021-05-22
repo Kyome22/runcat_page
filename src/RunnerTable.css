@@ -1,15 +1,24 @@
 .runner-table {
-  margin: 20px auto;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-rows: 100px;
+  grid-gap: 16px;
+  justify-content: center;
 }
 
-.runner-table td {
-  padding: 0px 5px;
-  width: 140px;
-  max-width: 140px;
-  vertical-align: top;
+.grid-row-3 {
+  grid-template-columns: repeat(3, 140px);
 }
 
-.runner {
+.grid-row-4 {
+  grid-template-columns: repeat(4, 140px);
+}
+
+.grid-row-5 {
+  grid-template-columns: repeat(5, 140px);
+}
+
+.runner-image-box {
   width: 140px;
   height: 36px;
   display: flex;

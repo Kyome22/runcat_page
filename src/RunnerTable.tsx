@@ -1,5 +1,6 @@
 import React from "react";
 import i18n from "i18next";
+import { PreventImage } from "./Content";
 import "./RunnerTable.css";
 
 type RunnerValue = {
@@ -8,64 +9,46 @@ type RunnerValue = {
   apng: string;
 };
 
-type RunnerBox = {
+export type RunnerBox = {
   directory: string;
   runners: RunnerValue[];
 };
 
 type Props = {
   runnerBox: RunnerBox;
-  num: number;
+  rowNum: number;
+  summary: boolean;
 };
 
 export function RunnerTable(props: Props) {
-  const { runnerBox, num } = props;
+  const { runnerBox, rowNum, summary } = props;
   const { directory, runners } = runnerBox;
   const lang = i18n.language;
 
-  const rows = (values: RunnerValue[], n: number) => {
-    return values.reduce(
-      (array, value) => {
-        if (array[array.length - 1].length < n) {
-          array[array.length - 1].push(value);
-        } else {
-          array.push([value]);
-        }
-        return array;
-      },
-      [[]] as RunnerValue[][]
-    );
-  };
-
-  const trs = (rows: RunnerValue[][]) => {
-    return rows.map((enumValues, i) => (
-      <tr key={`tr-${i}`}>{tds(enumValues)}</tr>
-    ));
-  };
-
-  const tds = (row: RunnerValue[]) => {
-    return row.map((enumValue, i) => {
+  const runnerGrid = (flag: boolean) => {
+    return runners.map((enumValue, i) => {
+      if (flag && rowNum <= i) {
+        return null;
+      }
       const name = lang == "en" ? enumValue.en_name : enumValue.ja_name;
       return (
-        <td key={`td-${i}`}>
-          <div className="runner">
-            <img
+        <div className="runner" key={`runenr-${i}`}>
+          <div className="runner-image-box">
+            <PreventImage
+              class="runner-image"
               src={`images/runners/${directory}/${enumValue.apng}`}
               alt={name}
-              onContextMenu={(e) => e.preventDefault()}
-              onMouseDown={(e) => e.preventDefault()}
-              onSelect={(e) => e.preventDefault()}
             />
           </div>
           <p className="newline">{name}</p>
-        </td>
+        </div>
       );
     });
   };
 
   return (
-    <table className="runner-table">
-      <tbody>{trs(rows(runners, num))}</tbody>
-    </table>
+    <div className={`runner-table grid-row-${rowNum}`}>
+      {runnerGrid(summary)}
+    </div>
   );
 }
