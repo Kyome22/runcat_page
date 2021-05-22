@@ -19,14 +19,9 @@ export default function Footer() {
       <div className="section">
         <a className="anchor" id="privacy_policy" />
         <p className="contents-title">{t("privacy_policy")}</p>
-        <button
-          className="link"
-          onClick={() => {
-            window.location.href = t("privacy_policy_url");
-          }}
-        >
+        <a className="button" href={t("privacy_policy_url")}>
           {t("detail")}
-        </button>
+        </a>
       </div>
       <div className="section">
         <a className="anchor" id="support" />
@@ -41,15 +36,12 @@ export default function Footer() {
         <p className="contents-title">RunCat for Windows</p>
         <img src="images/runcat_for_windows_demo.gif" alt="demo" />
         <p className="explain">{t("explain4")}</p>
-        <button
-          className="link"
-          onClick={() => {
-            window.location.href =
-              "https://github.com/Kyome22/RunCat_for_windows";
-          }}
+        <a
+          className="button"
+          href="https://github.com/Kyome22/RunCat_for_windows"
         >
           {t("download_win")}
-        </button>
+        </a>
       </div>
       <p className="copyright">{t("copyright")}</p>
     </div>

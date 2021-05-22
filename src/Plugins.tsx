@@ -20,14 +20,13 @@ export default function Plugins() {
       </p>
       <img src={`images/${lang}/plugins.png`} alt="plugins" />
       <p className="limited-explain">{t("explain3")}</p>
-      <button
-        className="link"
-        onClick={() => {
-          window.location.href = "/#self_made";
-        }}
+      <a
+        className="button"
+        href="/packages/RunCat_Plugins_Manager.dmg"
+        download="RunCat_Plugins_Manager.dmg"
       >
         {t("download")}
-      </button>
+      </a>
     </div>
   );
 }
