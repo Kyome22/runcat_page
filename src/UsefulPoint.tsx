@@ -7,7 +7,8 @@ export default function UsefulPoint() {
   const { t } = useTranslation();
 
   return (
-    <div className="section" id="useful_point">
+    <div className="section">
+      <a className="anchor" id="useful_point" />
       <p className="contents-title">{t("useful_point")}</p>
       <img src={`images/${lang}/info.png`} alt="info" />
       <p className="explain">{t("explain1")}</p>

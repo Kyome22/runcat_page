@@ -6,7 +6,7 @@ type Props = {
   onLangChange: () => void;
 };
 
-export default function Header(props: Props) {
+export function Header(props: Props) {
   const { onLangChange } = props;
   const { t } = useTranslation();
 
@@ -23,4 +23,8 @@ export default function Header(props: Props) {
       </div>
     </div>
   );
+}
+
+export function DummyHeader() {
+  return <div className="dummy-header"></div>;
 }

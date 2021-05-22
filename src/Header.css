@@ -52,3 +52,9 @@
 .header a:hover {
   color: #525252;
 }
+
+.dummy-header {
+  margin: 0;
+  padding: 0;
+  height: 84px;
+}

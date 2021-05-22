@@ -4,18 +4,14 @@
 }
 
 .footer .section {
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
-.footer p.contents-title {
-  margin: 0 0 20px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.footer p.explain {
-  margin: 20px 10px;
-  font-size: 24px;
+img.plugins-icon {
+  margin-right: 8px;
+  width: 48px;
+  height: 48px;
+  vertical-align: bottom;
 }
 
 .footer button.link {
@@ -35,7 +31,7 @@
   background-color: #6a6a6a;
 }
 
-.footer a {
+.footer a.mail-link {
   margin: 0px 15px;
   height: 50px;
   display: inline-flex;

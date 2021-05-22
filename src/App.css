@@ -1,3 +1,32 @@
 .app {
   text-align: center;
 }
+
+p.contents-title {
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p.explain {
+  margin: 0;
+  padding: 20px 20px 30px;
+  font-size: 24px;
+}
+
+p.limited-explain {
+  margin: 0 auto;
+  padding: 20px 20px 30px;
+  max-width: 620px;
+  font-size: 24px;
+  text-align: left;
+  white-space: pre-line;
+}
+
+a.anchor {
+  display: block;
+  margin-top: -84px;
+  padding-top: 84px;
+  visibility: hidden;
+}

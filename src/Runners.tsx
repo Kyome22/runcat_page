@@ -64,11 +64,13 @@ export default function Runners() {
 
   return (
     <React.Fragment>
-      <div className="section" id="happy_runners">
+      <div className="section">
+        <a className="anchor" id="happy_runners" />
         <p className="contents-title">{t("happy_runners")}</p>
         {runnerSet("defaults", defaults, 5)}
       </div>
-      <div className="section" id="runners_store">
+      <div className="section">
+        <a className="anchor" id="runners_store" />
         <p className="contents-title">{t("runners_store")}</p>
         {runnerSet("animal", animal, 5)}
         {runnerSet("inanimate", inanimate, 5)}

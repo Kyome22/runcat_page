@@ -1,31 +1,10 @@
 .content {
-  margin: 0;
-  padding: 82px 0 0;
   background-color: #e7ebed;
   font-family: "Exo 2", sans-serif;
 }
 
 .content div.section {
-  margin-top: -82px;
-  padding: 82px 0 30px;
-}
-
-.content p.contents-title {
-  margin: 0;
-  padding: 20px;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.content p.explain {
-  margin: 0;
-  padding: 20px 20px 30px;
-  font-size: 24px;
-}
-
-.content .newline {
-  margin: 8px auto 0;
-  white-space: pre-line;
+  padding: 20px 0;
 }
 
 /* UsefulPoint のやつ */
@@ -38,15 +17,17 @@
 
 /* Runners のやつ */
 button.summary {
-  padding: 8px 16px;
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  background-color: #464646;
+  margin-bottom: 32px;
+  padding: 5px 16px;
   font-size: 16px;
-  margin-bottom: 40px;
+  border-style: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #8c8c8c;
 }
 
 button.summary:hover {
-  background-color: #606060;
+  cursor: pointer;
+  color: #dedede;
+  background-color: #6a6a6a;
 }

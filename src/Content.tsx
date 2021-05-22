@@ -12,10 +12,11 @@ export default function Content() {
   return (
     <div className="content">
       <Top />
-      <div className="section" id="what_is_this">
+      <div className="section">
+        <a className="anchor" id="what_is_this" />
         <p className="contents-title">{t("what_is_this")}</p>
         <img src="images/demo.gif" alt="demo" />
-        <p className="explain newline">{t("summary")}</p>
+        <p className="limited-explain">{t("summary")}</p>
       </div>
       <UsefulPoint />
       <Runners />

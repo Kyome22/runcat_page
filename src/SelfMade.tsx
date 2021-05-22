@@ -9,7 +9,8 @@ export default function SelfMade() {
   const { t } = useTranslation();
 
   return (
-    <div className="section" id="self_made">
+    <div className="section">
+      <a className="anchor" id="self_made" />
       <p className="contents-title">
         <PreventImage
           class="self-made-icon"
@@ -18,7 +19,7 @@ export default function SelfMade() {
         />
         {t("self_made")}
       </p>
-      <p className="explain">{t("explain3")}</p>
+      <p className="explain">{t("explain2")}</p>
       <div>
         <p className="howto">{t("draw_runner")}</p>
         <p className="howto-sub">{t("regulations")}</p>
