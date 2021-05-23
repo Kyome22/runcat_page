@@ -22,8 +22,11 @@ export default function Plugins() {
       <p className="limited-explain">{t("explain3")}</p>
       <a
         className="button"
-        href="/packages/RunCat_Plugins_Manager.dmg"
-        download="RunCat_Plugins_Manager.dmg"
+        href="/packages/runcat_plugins_manager.zip"
+        download="runcat_plugins_manager.zip"
+        onClick={() => {
+          gtag("event", "download", { event_category: "plugins", value: 1 });
+        }}
       >
         {t("download")}
       </a>

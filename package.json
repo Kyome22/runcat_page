@@ -18,6 +18,7 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.4",
     "@types/i18next": "^13.0.0",
     "@types/query-string": "^6.3.0",
     "@types/react": "^17.0.3",
