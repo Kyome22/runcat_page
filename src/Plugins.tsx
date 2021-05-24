@@ -22,7 +22,7 @@ export default function Plugins() {
       <p className="limited-explain">{t("explain3")}</p>
       <a
         className="button"
-        href="/packages/runcat_plugins_manager.zip"
+        href="https://kyome.io/runcat/packages/runcat_plugins_manager.zip"
         download="runcat_plugins_manager.zip"
         onClick={() => {
           gtag("event", "download", { event_category: "plugins", value: 1 });
