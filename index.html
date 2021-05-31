@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>篠田ゆう AIR-011</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.20.3/video-js.min.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-sublime.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-markers.min.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-thumbnails.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-logobrand.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-related-carousel.css" rel="stylesheet">
+<link href="/templates/frontend/videojs-title-bar.css" rel="stylesheet">
+<link href="/templates/frontend/bright-blue/css/bootstrap.css" rel="stylesheet">
+<style>
+
+    body, html {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    #vjs-logobrand-image {
+        z-index: 1;
+    }
+    .vjs-title-bar-content > div {
+        color: white;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding: 8px;
+        width: calc(100% - 100px);
+        overflow: hidden;
+    }
+    .vjs-title-bar-content > div > a {
+        color: white;
+    }
+    .vjs-title-bar-content {
+        background-color: initial !important;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0));
+        height: initial !important;
+    }
+    div[poster] {
+        width: 100%!important;
+        height: 100%!important;
+        padding-top: 0!important;
+    }
+
+</style>
+</head>
+<body>
+<script type="text/javascript" src="/avideos.js?1"></script>
+<script>
+
+window.mobileAndTabletCheck = function() {
+  var check = false;
+  (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+  return check;
+};
+</script>
+<style>
+	
+		#flash {
+			padding-bottom: initial !important;
+			height: 100% !important;
+		}
+		.video-js .vjs-big-play-button {
+		    background-color: rgba(0,0,0,0.3) !important;
+		}
+		.video-js .vjs-control-bar {
+		    background-color: rgba(0,0,0,0.2) !important;
+		}
+		.vjs-paused.vjs-has-started .vjs-big-play-button {
+		    display: block;
+			border-radius: 0.75em;
+			width: 1.5em;
+			margin-left: -0.75em;
+		}
+		.vjs-sublime-skin:hover .vjs-big-play-button {
+		    background-color: rgba(0,0,0,0.4) !important;
+		}
+        .carousel-item img {
+            width: 110px !important;
+            margin: 0;
+        }
+        .carousel-item {
+            margin-left: 1em;
+        }
+        .carousel-item .carousel-item-title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            line-height: 1.2em;
+            max-height: 2.4em;
+            margin-top: 0.2em;
+        }
+        .vjs-progress-control {
+            z-index: 100;
+        }
+        .vjs-related-carousel-holder {
+            background-color: rgba(0,0,0,0.2) !important;
+        }
+        .vjs-carousel-left-button, .vjs-carousel-right-button {
+            background-color: rgba(255,255,255,0.2) !important;
+        }
+        .vjs-related-carousel-holder h5 {
+            color: white;
+            margin: 0.6em;
+        }
+        .vjs-carousel-left-button div, .vjs-carousel-right-button div {
+            font-size: 2.5em;
+        }
+        .vjs-related-carousel-holder.active {
+            padding-top: 4px;
+            height: 94px;
+        }
+        .vjs-related-carousel-holder > h5 {
+            display: none;
+        }
+        .bab-title {
+          color: rgba(232,140,140,1);
+        }
+        .bab-content {
+          color: rgba(255,255,255,0.8);
+        }
+	
+</style>
+<div id="share-modal" class="modal fade in" style="margin-top: 100px;">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Share to watch this video (Turn off AdBlock if no share options)</h4>
+</div>
+<div class="modal-body">
+<div class="addthis_inline_share_toolbox"></div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/templates/frontend/bright-blue/js/bootstrap.min.js"></script>
+<div id="flash" class="video-container">
+<div id="player_3x2_container"> 
+<div id="player_3x2_container_inner" style="position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%); z-index: 101; min-width: 600px; min-height: 250px;">
+
+
+<div style="position: absolute">
+
+
+
+
+<script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+<ins id="731571" data-width="300" data-height="250"></ins>
+<script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':731571});</script>
+
+</div>
+<div id="player_3x2_right_outer" style="position: absolute; margin-left: 300px">
+<div id="player_3x2_right">
+
+<script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+<ins id="675182" data-width="300" data-height="250"></ins>
+<script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':675182});</script>
+
+</div>
+<script type="text/javascript">
+          
+
+          /*
+          if (!mobileAndTabletCheck()) {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = '//poweredby.jads.co/js/jads.js';
+            script.setAttribute('data-cfasync', false);
+            script.setAttribute('async', true);
+            $('#player_3x2_right').append(script);
+            var ins = document.createElement('ins');
+            ins.id = '675182';
+            ins.setAttribute('data-width', 300);
+            ins.setAttribute('data-height', 250);
+            $('#player_3x2_right').append(ins);
+            var script2 = document.createElement('script');
+            script2.type = 'text/javascript';
+            script2.setAttribute('data-cfasync', false);
+            script2.setAttribute('async', true);
+            script2.innerHTML = "(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':675182});";
+            $('#player_3x2_right').append(script2);
+          } else {
+            $('#player_3x2_right').html('<a href="https://main.exosrv.com/img-click.php?idzone=3005072" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3005072&output=img&type=300x250" width="300" height="250"></a>');
+            // $('#player_3x2_right').html("<script type='text/javascript' src='//ads.adxpansion.com/public/js/showads.php?zone_id=256562&ver=1'>&lt;script><br/><a target='_top' href='http://www.adxpansion.com/' title='Buy and Sell Adult Traffic' style='background-color:#FFFFFF;color:#000000;font-size:9px;border:none;font-family:verdana, sans-serif;padding:0;margin:0;'>ads by AdXpansion</a>");
+          }
+          */
+
+          if ($('#flash').width() <= 600) {
+            $('#player_3x2_container_inner').css({'min-width': '300px'});
+            $('#player_3x2_container_inner').css({'top': '150px'});
+            // Resize for mobile layout
+            $('#player_3x2_right_outer').css({'margin-left': '0', 'margin-top': '250px'});
+          }
+          
+        </script>
+</div>
+<span id="player_3x2_close" style="box-shadow: 0px 0px 30px white;padding: 5px 0px 10px 0px;position: absolute;left: 0;top: 6px;line-height: 0.6em;text-decoration: none;cursor:pointer;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;margin-top: -37px;" class="btn btn-lg btn-primary btn-block"><i id="close-btn-icon" class="glyphicon glyphicon-remove"></i><strong id="close-btn-text"> 閉じる・Close</strong></span>
+</div>
+</div>
+<video id="video-player" class="video-js vjs-fullscreen vjs-sublime-skin" poster="https://static-clst.avgle.com/videos/tmb7/234104/default.jpg" controls>
+</video>
+</div>
+<div id="hcaptcha" class="h-captcha" data-callback="hCaptchaCallback" data-error-callback="hCaptchaErrorCallback" data-expired-callback="hCaptchaErrorCallback" data-chalexpired-callback="hCaptchaErrorCallback" data-close-callback="hCaptchaErrorCallback" data-size="invisible"></div>
+<script type="text/javascript">
+
+  
+  let gRecaptchaTokenGet = false;
+  let currentGRecaptchaCallback;
+
+  function hCaptchaCallback(gToken) {
+    gRecaptchaTokenGet = true;
+    currentGRecaptchaCallback && currentGRecaptchaCallback(gToken);
+  } 
+
+  function hCaptchaErrorCallback() {
+    !gRecaptchaTokenGet && currentGRecaptchaCallback && currentGRecaptchaCallback(null);
+  } 
+  
+
+	var thumbPath = 'https://static-clst.avgle.com/videos/tmb7/234104';
+	var duration = '2790.83';
+  var removedMessage = '';
+  var popunderURL = '';
+      var mustShare = false;
+      	var isVR = false;
+      	var isVR3D = false;
+          var hasSD = true;
+          var hasHD = false;
+          var adm = false;
+    
+
+  console.clear = function () {}
+  var c2 = getValFromCookieOrLocalStorage('ip_country');
+  if (popunderURL && (c2 === 'hk' || c2 === 'tw' || c2 === 'jp' || c2 === 'kr' || c2 === 'cn')) {
+    $('body').on('click', 'a', function(e) {
+      if (!$(this).attr('href') || $(this).attr('href')[0] === '#' || $(this).attr('href')[0] !== '/') return;
+      if ($(this).data('nopop')) return;
+      e.preventDefault();
+      window.open($(this).attr('href'));
+      window.location = popunderURL;
+    });
+  }
+  
+  var video_hkey = 'NnYG8Gm_kGS';
+  var video_title = '篠田ゆう AIR-011';
+  var redirectURL = window.location.origin + '/video/' + window.video_hkey + '/' + encodeURIComponent(window.video_title);
+      var video_id = '234104';
+    
+		function getValFromCookieOrLocalStorage(nameSub) {
+			var result = null;
+			document.cookie.split('; ').some(function (c) {
+				var kv = c.split('=');
+				if (kv[0].indexOf(nameSub) !== -1) {
+					result = kv[1];
+					return true;
+				}
+				return false;
+			});
+			if (result !== null) {
+				return result;
+			}
+			for (var i = 0; i < localStorage.length; i++) {
+				var k = localStorage.key(i);
+				if (k.indexOf(nameSub) !== -1) {
+					return localStorage.getItem(k);
+				}
+			}
+			return null;
+		}
+
+
+    try {
+      Object.defineProperties(window, {
+        isEmbedded: {
+          get() { return true; }
+        },
+      });
+    } catch (e) {
+      alert(e);
+      try {
+        if (!window.location.href.endsWith('?adblock_detected')) {
+          window.location = redirectURL + '?adblock_detected';
+        }
+      } catch (e1) {
+      }
+    }
+    
+  
+</script>
+<script type="text/javascript">
+  
+
+  // $.get(window.location.href + '?count_only=1&t=' + Date.now(), function(result) {
+  //   console.log(result);
+  // });
+  var vjsLoaded = false;
+  var played = false;
+  /*
+  var showBlockIf = function () {
+    $('#blocked-if').fadeIn();
+  };
+  setTimeout(showBlockIf, 5000);
+  */
+
+  // 2019-06-28
+  var isChromium = window.chrome;
+  var winNav = window.navigator;
+  var vendorName = winNav.vendor;
+  var isOpera = typeof window.opr !== "undefined";
+  var isIEedge = winNav.userAgent.indexOf("Edge") > -1;
+  var isIOSChrome = winNav.userAgent.match("CriOS");
+
+  var sha = false;
+  if (isIOSChrome) {
+    sha = true;
+  } else if(
+    isChromium !== null &&
+    typeof isChromium !== "undefined" &&
+    vendorName === "Google Inc." &&
+    isOpera === false &&
+    isIEedge === false
+  ) {
+    sha = mobileAndTabletCheck();
+  } else {
+    // not Google Chrome
+  }
+  var c = getValFromCookieOrLocalStorage('ip_country');
+  if (c === 'hk' || c === 'tw' || c === 'jp' || c === 'kr' || c === 'cn') {
+    sha = false;
+  }
+
+  var key = 'play_' + md5(video_id);
+  if (!sha) {
+    var appendInterval = setInterval(function() {
+      if ($('#video-player').prop('tagName') === 'DIV') {
+        $('#video-player').append('<div id="aoverlay" style="position: absolute;width: 100%;height: 100%;top: 0;background-color: rgba(0,0,0,0.3);z-index: 99;"></div>');
+        if (localStorage[key]) {
+           $('#aoverlay').hide();
+        }
+        clearInterval(appendInterval);
+        vjsLoaded = true;
+      }
+    }, 20);
+    localStorage.removeItem(key);
+  } else {
+    $('body').append('<style>#player_3x2_container{display:none;}</style>');
+    localStorage[key] = 1;
+  }
+  var closeAd = function (e) {
+    /*
+    if (isEmbedded && removedMessage) {
+      alert(removedMessage);
+    }
+    */
+    try {
+      if (!e.screenX || e.originalEvent.isTrusted === false) {
+        return;
+      }
+    } catch (e) {
+    }
+    // window.open('http://go.ero-advertising.com/pop.go?spaceid=4577257');
+    $('#player_3x2_container').hide();
+    $('#aoverlay').hide();
+    localStorage[key] = 1;
+    /*
+    if (!played) {
+      player.play();
+      $('#close-btn-icon').removeClass('glyphicon-play');
+      $('#close-btn-icon').addClass('glyphicon-remove');
+      $('#close-btn-text').text(' 閉じる・Close');
+      played = true;
+    }*/
+  };
+  $('#player_3x2_close').on('click touchstart', closeAd);
+  if (mobileAndTabletCheck()) {
+    var listener = addEventListener('blur', function() {
+      activeE = document.activeElement;
+      if (activeE.href && activeE.href.indexOf('exosrv.com') !== -1) {
+        return;
+      }
+      while ($) {
+        activeE = activeE.parentElement;
+        if (activeE) {
+          if (activeE === document.getElementById('player_3x2_container')) {
+            setTimeout(closeAd, 1000);
+            break;
+          }
+        } else {
+          break;
+        }
+      }
+      removeEventListener('blur', listener);
+    });
+  }
+  
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.20.3/video.min.js"></script>
+<script src="/templates/frontend/videojs-contrib-hls.js"></script>
+
+<script type="text/javascript">
+  videojs.options.hls.overrideNative = true;
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jStorage/0.4.12/jstorage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/json2/20160511/json2.min.js"></script>
+<script src="/templates/frontend/videojs-resolution-switcher.js"></script>
+<script src="/templates/frontend/videojs-markers.min.js"></script>
+<script src="/templates/frontend/videojs-thumbnails.js"></script>
+<script src="/templates/frontend/videojs-logobrand.js"></script>
+<script src="/templates/frontend/videojs-title-bar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js"></script>
+<script src="/templates/frontend/videojs-related-carousel.js"></script>
+<script src="/templates/frontend/videojs-hotkeys.min.js"></script>
+<span id="k_0_1232371749">email hidden; JavaScript is required</span><script id="script_k_0_1232371749" type="text/javascript">
+/* <!-- */
+function hl_k_0_1232371749() {
+var kode="kode=\"110 114 103 104 64 37 114 110 104 103 95 37 64 52 52 35 51 52 52 35 55 51 52 35 54 51 52 35 55 55 57 54 35 35 58 53 57 60 35 35 56 58 54 57 35 35 56 56 60 60 35 35 56 51 52 35 55 51 52 35 53 52 52 35 58 53 52 35 51 52 52 35 55 52 52 35 59 51 56 57 35 35 54 56 60 60 35 35 56 56 57 60 35 35 56 56 60 60 35 35 56 58 54 60 35 35 56 56 60 56 35 35 56 52 56 56 35 35 53 56 56 56 35 35 55 54 56 60 35 35 56 58 54 60 35 35 56 56 60 57 35 35 55 51 52 35 54 51 52 35 59 53 52 35 52 59 55 52 35 51 51 52 35 60 52 52 35 51 51 52 35 54 51 54 35 35 56 56 60 54 35 35 58 56 60 60 35 35 56 54 56 56 35 35 60 59 56 56 35 35 54 56 56 57 35 35 51 53 56 56 35 35 54 58 56 56 35 35 53 56 60 54 35 35 58 56 60 60 35 35 56 55 57 52 35 59 52 52 35 60 52 55 35 35 59 51 52 35 51 52 52 35 60 51 52 35 51 51 52 35 54 56 54 60 35 35 56 58 54 60 35 35 56 56 60 57 35 35 55 59 57 52 35 52 52 57 35 35 60 56 59 57 35 35 60 59 57 57 35 35 59 53 58 56 35 35 60 59 57 58 35 35 52 58 58 52 35 57 51 52 35 53 53 57 35 35 59 52 60 58 35 35 54 59 57 59 35 35 60 60 59 59 35 35 60 60 59 59 35 35 59 59 59 52 35 54 51 52 35 52 52 59 35 35 60 51 52 35 52 60 57 57 35 35 59 60 59 58 35 35 58 53 58 59 35 35 55 60 59 58 35 35 60 53 60 58 35 35 54 59 57 60 35 35 51 54 58 52 35 57 51 58 35 35 52 56 60 54 35 35 58 56 60 60 35 35 56 55 57 52 35 58 51 52 35 59 52 52 35 51 51 52 35 58 51 52 35 55 52 55 35 35 59 51 52 35 51 52 52 35 60 51 52 35 51 51 52 35 54 56 54 60 35 35 56 58 54 60 35 35 56 56 60 52 35 55 52 52 35 56 51 52 35 54 52 52 35 59 51 55 35 35 59 52 52 35 55 51 52 35 55 51 52 35 54 51 52 35 59 53 52 35 52 56 60 54 35 35 58 56 60 60 35 35 56 55 57 52 35 54 51 52 35 59 51 54 35 35 56 51 52 35 55 51 52 35 53 52 52 35 58 53 52 35 51 52 52 35 55 52 52 35 59 54 57 60 35 35 56 56 60 60 35 35 56 58 54 57 35 35 55 60 58 59 35 35 51 58 59 58 35 35 56 52 52 35 58 51 52 35 55 52 52 35 60 53 52 35 51 52 52 35 55 60 55 55 35 35 55 56 60 55 35 35 53 52 58 58 35 35 57 59 60 58 35 35 59 56 60 55 35 35 53 54 55 52 35 54 51 58 35 35 57 53 52 35 55 60 57 52 35 60 52 52 35 54 52 52 35 55 51 52 35 53 52 52 35 55 51 52 35 52 52 58 35 35 53 52 52 35 60 51 52 35 55 51 52 35 57 60 55 52 35 60 52 52 35 54 52 52 35 55 51 52 35 53 52 52 35 51 53 52 35 53 51 52 35 55 52 52 35 54 51 54 35 35 58 53 57 52 35 51 52 52 35 55 52 52 35 54 51 52 35 55 51 57 35 35 55 52 52 35 51 52 52 35 55 51 52 35 54 51 52 35 55 60 55 52 35 59 52 52 35 56 52 52 35 52 52 52 35 59 51 52 35 60 52 55 35 35 54 53 55 55 35 35 53 55 55 55 35 35 60 52 52 35 58 51 52 35 55 53 52 35 52 51 52 35 55 52 52 35 58 52 52 35 59 51 52 35 55 54 55 55 35 35 55 60 55 52 35 60 51 52 35 55 52 52 35 59 51 52 35 54 52 55 35 35 54 53 55 55 35 35 53 55 55 57 35 95 37 53 110 62 103 114 64 104 114 110 104 103 118 49 111 115 119 108 95 42 43 95 42 35 62 44 64 123 95 42 95 42 105 62 117 114 108 43 51 64 108 62 110 63 103 114 49 104 104 111 106 113 107 119 108 62 46 46 126 44 46 123 86 64 117 119 113 108 49 106 117 105 112 114 107 70 117 100 114 70 104 103 115 43 117 100 104 118 113 76 43 119 114 110 104 103 108 94 44 96 54 48 128 44 114 110 104 103 123 64 62 37 62 123 64 42 42 62 105 114 117 43 108 64 51 62 108 63 43 110 114 103 104 49 111 104 113 106 119 107 48 52 44 62 108 46 64 53 44 126 123 46 64 110 114 103 104 49 102 107 100 117 68 119 43 108 46 52 44 46 110 114 103 104 49 102 107 100 117 68 119 43 108 44 128 110 114 103 104 64 123 46 43 108 63 110 114 103 104 49 111 104 113 106 119 107 66 110 114 103 104 49 102 107 100 117 68 119 43 110 114 103 104 49 111 104 113 106 119 107 48 52 44 61 42 42 44 62\";kode=kode.split(\' \');x=\'\';for(i=0;i<kode.length;i++){x+=String.fromCharCode(parseInt(kode[i])-3)}kode=x;",i,c,x,script=document.getElementById("script_k_0_1232371749");while(kode.indexOf("getElementById('K_ID')")===-1){eval(kode)};kode=kode.replace('K_ID','k_0_1232371749');eval(kode);script.parentNode.removeChild(script);
+}
+hl_k_0_1232371749();
+/* --> */
+</script>
+<script src="/templates/frontend/bright-blue/promise.min.js"></script>
+<script src="/templates/frontend/bright-blue/runtime.js"></script>
+<script src="/templates/frontend/p2p.js?7"></script>
+<script src="/templates/frontend/inferno.js?1a80b4f72565d716c78885d304002a94&amp;3"></script>
+<script src="/templates/frontend/avgle-main-ah.js?1a80b4f72565d716c78885d304002a94&amp;2"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  //ga('create', 'UA-88439523-6', {'sampleRate': 2});
+  ga('create', 'UA-88439523-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,3858761,4,1032,150,25,00000001']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?3858761&101" alt="free web site hit counter" border="0"></a></noscript>
+
+
+<script type='text/javascript' src='//sub2.avgle.com/67/1d/ba/671dbadbf37814e321f252eac8aa2500.js'></script>
+
+
+<script type="text/javascript">
+  
+
+
+    
+  // ExoLoader.serve({"script_url":"/avideos.php"});
+
+  // Show juicy if ppu_sub >= 2
+  // var sub = parseInt(getValFromCookieOrLocalStorage('ppu_sub'));
+  // var delay = parseInt(getValFromCookieOrLocalStorage('ppu_delay'));
+  // var idelay = parseInt(getValFromCookieOrLocalStorage('ppu_idelay'));\
+  // if (sub >= 2) {
+  //   console.log('Show juicy!')
+  //   $.getScript('https://js.juicyads.com/jp.php?c=3454z2x2x264u4q2o26423c424&u=http%3A%2F%2Fwww.juicyads.rocks');
+  // }
+
+  var __htapop = {};
+  var ucze55lfleo = "\/\/olmsoneenh.info\/c\/D\/9s6nb\/2R5DlhS\/W\/Q\/9JMezlIz0-OFT\/gM4\/O\/S\/0HzFM\/jEQj5GOqTsIG5I";
+
+  let lp = localStorage.getItem('AdxadRtbLastPopAt');
+  var popSub2 = !!lp && (Date.now() - lp) / 1000 < 1800;
+  if (popSub2) {
+    console.log('Show sub2');
+    var s = document.createElement('script');
+    var x = document.getElementsByTagName('script')[0];
+    s.src   = 'https://sub2.avgle.com/67/1d/ba/671dbadbf37814e321f252eac8aa2500.js';
+    s.type  = 'text/javascript';
+    s.async = true;
+    x.parentNode.insertBefore(s, x);
+
+    var sub = parseInt(getValFromCookieOrLocalStorage('ppu_sub'));
+    if (sub >= 2) {
+    // if (popHTA) {
+      console.log('Show olmsoneenh.info!');
+      var s = document.createElement('script');
+      var x = document.getElementsByTagName('script')[0];
+      s.src   = ucze55lfleo;
+      s.type  = 'text/javascript';
+      s.async = true;
+      x.parentNode.insertBefore(s, x);
+    }
+  }
+
+  setInterval(() => {
+    let hcif = document.querySelector('iframe[src*="hcaptcha"][style*="200000"]');
+    if (!hcif) return;
+    let hcifHeight = parseFloat(getComputedStyle(hcif).height);
+    let bHeight = parseFloat(getComputedStyle(document.body).height);
+    let scale = bHeight / hcifHeight;
+    if (scale > 1) {
+      scale = 1;
+    }
+    let container = hcif.parentElement.parentElement;
+    container.style.transform = `scale(${scale})`;
+    container.style.top = '0px';
+    container.style['transform-origin'] = 'center top';
+  }, 500);
+
+  
+  </script>
+</body>
+<html>
