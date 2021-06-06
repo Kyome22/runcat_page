@@ -125,6 +125,11 @@
       "en_name": "Squirrel",
       "ja_name": "リス",
       "apng": "squirrel.png"
+    },
+    {
+      "en_name": "Butterfly",
+      "ja_name": "蝶々",
+      "apng": "butterfly.png"
     }
   ]
 }

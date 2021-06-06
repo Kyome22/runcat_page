@@ -29,3 +29,7 @@
   object-fit: contain;
   max-width: 140px;
 }
+
+.newline {
+  white-space: pre-line;
+}
