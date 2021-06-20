@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --config webpack.config.js",
-    "build": "webpack"
+    "build": "webpack",
+    "rmdist": "rm -rf ~/Desktop/dist"
   },
   "homepage": "./",
   "dependencies": {
