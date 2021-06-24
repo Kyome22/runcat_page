@@ -41,7 +41,7 @@
   "privacy_policy": "Privacy Policy",
   "detail": "In more detail",
   "privacy_policy_url": "https://kyome.io/privacy_policy/index.html?lang=en&id=1429033973",
-  "explain3": "After installing the latest version of RunCat Plugins Manager and activating the helper app, RunCat will be able to show the CPU temperature. (Environment: macOS 10.15~, RunCat ver9.1, Not supports Apple Silicon Mac)",
+  "explain3": "After installing the latest version of RunCat Plugins Manager and activating the helper app, RunCat will be able to show the CPU temperature. (Environment: macOS 10.15~, RunCat ver9.1)",
   "download": "Download a dmg file",
   "explain4": "A cute running cat animation on your windows taskbar.",
   "download_win": "Go to the RunCat.exe download page",

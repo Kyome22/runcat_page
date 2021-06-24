@@ -47,13 +47,6 @@ module.exports = {
           },
         },
         {
-          from: path.resolve(__dirname, "static", "packages"),
-          to: path.resolve(__desktop, "dist", "packages"),
-          globOptions: {
-            ignore: ["**/.DS_Store"],
-          },
-        },
-        {
           from: path.resolve(__dirname, "static", "favicon.ico"),
           to: path.resolve(__desktop, "dist", "favicon.ico"),
         },
